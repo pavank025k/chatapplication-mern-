@@ -9,7 +9,7 @@ import cors from "cors";
 import { app, server } from "./lib/socket.io.js";
 import { connectDB } from "./lib/db.js";
 
-require('dotenv').config();
+//require('dotenv').config();
 app.use(bodyParser.json())
 app.use(cookieParser());
 app.use(cors({
