@@ -13,7 +13,7 @@ import { connectDB } from "./lib/db.js";
 app.use(bodyParser.json())
 app.use(cookieParser());
 app.use(cors({
-     origin:"https://chatapplication-mern.vercel.app",
+     origin:"http://localhost:5173",
      credentials:true, 
 }))
 dotenv.config();
